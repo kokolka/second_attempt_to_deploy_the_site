@@ -1,0 +1,38 @@
+nav{
+    height: auto;
+}
+
+.item a{
+    padding: 10px;
+    display: block;
+    color: black;
+    text-decoration: none;
+}
+
+.item a:hover{
+    color: white;
+    background-color: blue;
+}
+
+.item a.active{
+    color: black;
+    background-color: white;
+}
+
+h3{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    padding: 10px;
+    size: 30px;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.friends{
+    margin: 100px 0 0 0;
+}
+
+.block_foto{
+    display: flex;
+
+    justify-content: center;
+}

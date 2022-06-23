@@ -1,0 +1,39 @@
+.numberPage{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.activePage{
+    font-weight: bold;
+    display: inline-block;
+
+
+    height: 20px;
+    margin: 0 5px;
+
+
+    background-color: rgb(207, 207, 207);
+    border: 1px solid black;
+}
+.pasivPage{
+    display: inline-block;
+
+
+    height: 20px;
+    margin: 0 5px;
+
+    background-color: rgb(207, 207, 207);
+    border: 1px solid rgb(143, 143, 143);
+}
+
+.numberPage__button{
+    display: inline-block;
+    margin: 0 5px;
+
+    height: 22px;
+
+    background-color: rgb(207, 207, 207);
+    border: 1px solid rgb(143, 143, 143);
+}

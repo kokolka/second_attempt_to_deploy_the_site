@@ -1,0 +1,20 @@
+.status_block{ 
+    display: inline-block;
+    width: 40%;
+    font-size: 16px;
+    height: 100%;
+}
+
+.status_editModeOff{
+    display: block;
+    width: 200px;
+    height: 100%;
+    text-align: left;
+}
+
+.status_editModeOn{
+    width: 200px;
+    
+    text-align: left;
+    display: inline-block;
+}

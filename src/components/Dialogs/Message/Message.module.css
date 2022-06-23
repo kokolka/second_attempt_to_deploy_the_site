@@ -1,0 +1,30 @@
+.message_1{
+
+    padding: 5px;
+    text-align: left;
+    color: black;
+}
+.message_2{
+
+    padding: 5px;
+    text-align: right;
+    color: black;
+}
+.message_element_1{
+    display: inline-block;
+
+    font-size: 18px;
+    padding: 10px;
+    font-weight: 450;
+    
+    background-color: rgb(187, 243, 243);
+    border-radius: 10px 10px 10px 0;
+}
+.message_element_2{
+    display: inline-block;
+    font-size: 18px;
+    padding: 10px;
+    
+    background-color: rgb(214, 245, 245);
+    border-radius: 10px 10px 0 10px;
+}

@@ -1,0 +1,132 @@
+.userBox {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+
+    margin: 15px;
+    border-radius: 15px;
+    background-color: rgba(159, 204, 241, 0.575);
+
+
+
+    display: grid;
+
+    grid-template-columns: 120px 1fr 200px;
+}
+
+@media (max-width: 767px) {
+    .userBox {
+        display: grid;
+        grid-template-areas:
+            'f l'
+            'p p';
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 50% 50%;
+        grid-gap: 5px;
+    }
+
+    .userBox_foto {
+        grid-area: f;
+        margin: 5px 5px;
+    }
+
+    .userLocation {
+        grid-area: l;
+        margin: 5px 5px;
+        
+    }
+
+    .userData_profile {
+        grid-area: p;
+        margin: 0;
+    }
+}
+@media (max-width: 300px) {
+    .userBox {
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 115px 130px;
+        grid-gap: 5px;
+    }
+    .userBox_foto {
+        max-width: 100px;
+    }
+    .userData_profile {
+        grid-template-rows: 1fr 1fr;
+    }
+    .userLocation_city{
+        max-width: 90px;
+    }
+    .userLocation_country{
+        max-width: 90px;
+    }
+}
+
+.userBox_foto {
+    margin: 5px 5px 5px 10px;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: rgb(159, 204, 241);
+}
+
+.foto {
+    display: block;
+    margin: 0 auto 5px auto;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.followButton {
+    display: block;
+    margin: 0 auto;
+
+    background-color: rgb(119, 170, 212);
+    width: 80px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid rgb(119, 170, 212);
+}
+
+.followButton:hover {
+    background-color: rgba(119, 170, 212, 0.63);
+}
+
+.followButton:active {
+    background-color: rgb(96, 148, 190);
+}
+
+.userData_profile {
+    margin: 5px 10px 5px 10px;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: rgb(159, 204, 241);
+
+    display: grid;
+
+    grid-template-rows: 3fr 1fr;
+}
+
+.userName {
+    padding: 10px 0 0 0;
+}
+
+.userLocation {
+    margin: 5px 10px 5px 5px;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: rgb(159, 204, 241);
+
+    display: grid;
+
+    grid-template-rows: 1fr 1fr;
+}
+
+.userLocation_city {
+    padding: 10px 0 0 10px;
+    margin: 10px 0px;
+    word-wrap: break-word;
+}
+
+.userLocation_country {
+    padding: 0 0 0 10px;
+    margin: 10px 0px;
+    word-wrap: break-word;
+}

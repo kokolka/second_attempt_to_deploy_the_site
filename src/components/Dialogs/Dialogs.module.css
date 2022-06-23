@@ -1,0 +1,105 @@
+.dialogs {
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+}
+
+.dialogs_item {
+    padding: 10px;
+}
+
+.messages {
+    display: grid;
+
+    grid-template-areas:
+        'iconName'
+        'massage'
+        'input';
+
+    grid-template-rows: 5% 80% 13%;
+    grid-template-columns: 100%;
+    grid-gap: 5px;
+
+    max-height: 520px;
+}
+.messages__module{
+    position: absolute;
+    left: 0;
+    top: 60px;
+}
+
+@media (max-width: 767px) {
+    .messages {
+        grid-template-areas:
+            'iconName'
+            'massage'
+            'input';
+        grid-template-rows: 5% 82% 13%;
+        grid-template-columns: 100%;
+
+        width: 100%;
+    }
+}
+
+.action_dialog {
+    display: inline-block;
+    grid-area: name;
+    font-weight: 700;
+
+    margin: 0 0 0 10px;
+    padding: 10px 0 0 0;
+}
+
+.message_area {
+    grid-area: massage;
+
+    display: block;
+    margin: 17px 0 0 0;
+
+    overflow-y: auto;
+}
+
+.send {
+    grid-area: input;
+    display: grid;
+    grid-template-areas:
+        't b';
+
+    grid-template-columns: 80% 20%;
+
+    max-height: 40px;
+}
+
+.send_textarea {
+    grid-area: t;
+    font-size: 18px;
+
+    width: 97%;
+    height: 100%;
+
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.send_button {
+    grid-area: b;
+    width: 100%;
+    height: 90%;
+}
+
+.dialogs_icon {
+    display: inline-block;
+    width: 40px;
+}
+.action_dialog_icon{
+    grid-area: iconName;
+
+    background-color: azure;
+    border-bottom: 1px solid black;
+    height: 40px;
+
+    margin: 5px 0 0 0;
+}
+
+.dialogs_item__module {
+    visibility: hidden;
+}

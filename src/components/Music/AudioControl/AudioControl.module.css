@@ -1,0 +1,125 @@
+.control_box {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 306px) {
+    .control_box {
+        display: grid;
+        grid-template-areas:
+            'p a n';
+
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .control_box__play {
+        grid-area: a;
+
+        display: flex;
+
+        align-items: center;
+        justify-content: center;
+    }
+
+    .control_box__play .button_audio__play {
+        height: 50px;
+        width: 50px;
+    }
+
+    .control_box__play .button_audio__play img {
+        height: 35px;
+        width: 35px;
+    }
+
+    .control_box__prev {
+        grid-area: p;
+
+        display: flex;
+
+        align-items: center;
+        justify-content: center;
+    }
+
+    .control_box__prev .button_audio_next {
+        height: 40px;
+        width: 40px;
+    }
+
+    .control_box__prev .button_audio_next img {
+        height: 35px;
+        width: 35px;
+    }
+
+    .control_box__next {
+        grid-area: n;
+
+        display: flex;
+
+        align-items: center;
+        justify-content: center;
+    }
+
+    .control_box__next .button_audio_next {
+        height: 40px;
+        width: 40px;
+    }
+
+    .control_box__next .button_audio_next img {
+        height: 35px;
+        width: 35px;
+    }
+}
+
+.button_audio__play {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 0px;
+}
+
+.button_audio__play:hover {
+    background-color: rgb(215, 231, 243);
+}
+
+.button_audio__play:active {
+    background-color: rgb(193, 203, 211);
+}
+
+.button_audio__play img {
+    width: 20px;
+    height: 20px;
+}
+
+.button_audio_next {
+    /* для next и prev */
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 0px;
+    background-color: rgb(177, 213, 243);
+}
+
+.button_audio_next:hover {
+    background-color: rgb(215, 231, 243);
+}
+
+.button_audio_next:active {
+    background-color: rgb(193, 203, 211);
+}
+
+.button_audio_next img {
+    width: 20px;
+    height: 20px;
+}

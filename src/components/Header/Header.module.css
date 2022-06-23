@@ -1,0 +1,24 @@
+.logoPage{
+    display: inline-block;
+    width: 20px;
+}
+
+.login_block{
+    display: inline-block;
+    float: right;
+}
+.login_block a{
+    color: white;
+}
+.menu_ikon{
+    margin: 10px;
+    width: 40px;
+
+    border-radius: 50%;
+}
+.menu_ikon:hover{
+    background-color: rgb(108, 125, 202);
+}
+.menu_ikon:active{
+    background-color: white;
+}

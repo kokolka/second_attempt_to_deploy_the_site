@@ -1,0 +1,22 @@
+.item{
+    color: gray;
+}
+
+.item p{
+    display: inline-block;
+}
+
+.item img{
+    width: 50px;
+    border-radius: 25px;
+}
+
+span{
+    display: inline-block;
+    width: 40px;
+    text-align: center;
+}
+
+.likeCounts{
+    color: black;
+}
