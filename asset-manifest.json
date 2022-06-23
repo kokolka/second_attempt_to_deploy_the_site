@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/second_attempt_to_deploy_the_site/static/css/main.9ce71001.css",
+    "main.js": "/second_attempt_to_deploy_the_site/static/js/main.c4bb82a2.js",
+    "static/css/723.6d32d7ff.chunk.css": "/second_attempt_to_deploy_the_site/static/css/723.6d32d7ff.chunk.css",
+    "static/js/723.60527fcf.chunk.js": "/second_attempt_to_deploy_the_site/static/js/723.60527fcf.chunk.js",
+    "static/css/388.46f064a7.chunk.css": "/second_attempt_to_deploy_the_site/static/css/388.46f064a7.chunk.css",
+    "static/js/388.772ecd91.chunk.js": "/second_attempt_to_deploy_the_site/static/js/388.772ecd91.chunk.js",
+    "static/js/787.faadeadd.chunk.js": "/second_attempt_to_deploy_the_site/static/js/787.faadeadd.chunk.js",
+    "static/media/lukas_tvrdon_Bubbles.mp3": "/second_attempt_to_deploy_the_site/static/media/lukas_tvrdon_Bubbles.4926594ec46a4c9e7512.mp3",
+    "static/media/lukas_tvrdon_Otherworld.mp3": "/second_attempt_to_deploy_the_site/static/media/lukas_tvrdon_Otherworld.c67a239fb4a42c5d8a4a.mp3",
+    "static/media/deep_blue_1.jpg": "/second_attempt_to_deploy_the_site/static/media/deep_blue_1.ebbf5d22be901afcfb4a.jpg",
+    "static/media/lukas_tvrdon.mp3": "/second_attempt_to_deploy_the_site/static/media/lukas_tvrdon.0dbb9ef192b6fcf5b0e9.mp3",
+    "static/media/deep_blue_3.jpg": "/second_attempt_to_deploy_the_site/static/media/deep_blue_3.2bfc2d3fc7aea81dc4ba.jpg",
+    "static/media/noPhoto.png": "/second_attempt_to_deploy_the_site/static/media/noPhoto.51858f120a517deb7ab7.png",
+    "static/media/deep_blue_2.jpg": "/second_attempt_to_deploy_the_site/static/media/deep_blue_2.11a2e8a5353ff0ecc50b.jpg",
+    "static/media/dialogIcon.png": "/second_attempt_to_deploy_the_site/static/media/dialogIcon.b49311ced3bb94328d50.png",
+    "index.html": "/second_attempt_to_deploy_the_site/index.html",
+    "static/media/Rolling-1s-200px.svg": "/second_attempt_to_deploy_the_site/static/media/Rolling-1s-200px.724f1d58b5b3f61b4fcb1f36f84642d4.svg",
+    "main.9ce71001.css.map": "/second_attempt_to_deploy_the_site/static/css/main.9ce71001.css.map",
+    "main.c4bb82a2.js.map": "/second_attempt_to_deploy_the_site/static/js/main.c4bb82a2.js.map",
+    "723.6d32d7ff.chunk.css.map": "/second_attempt_to_deploy_the_site/static/css/723.6d32d7ff.chunk.css.map",
+    "723.60527fcf.chunk.js.map": "/second_attempt_to_deploy_the_site/static/js/723.60527fcf.chunk.js.map",
+    "388.46f064a7.chunk.css.map": "/second_attempt_to_deploy_the_site/static/css/388.46f064a7.chunk.css.map",
+    "388.772ecd91.chunk.js.map": "/second_attempt_to_deploy_the_site/static/js/388.772ecd91.chunk.js.map",
+    "787.faadeadd.chunk.js.map": "/second_attempt_to_deploy_the_site/static/js/787.faadeadd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9ce71001.css",
+    "static/js/main.c4bb82a2.js"
+  ]
+}
